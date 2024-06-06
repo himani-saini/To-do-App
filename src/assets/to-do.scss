@@ -1,0 +1,48 @@
+$default    :   #C5C5C5;
+$current : #decaff;
+/* default */
+html{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  //scroll-behavior: smooth;
+}
+body{
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Apercu', sans-serif;
+  font-weight: 400;
+  font-feature-settings: "ss01" on;
+  line-height: 1.5;
+  margin: 0;
+  touch-action: manipulation;
+  
+}
+
+
+h1{
+  color: black;
+  font-weight: bold;
+}
+
+button{
+  font-weight: bold;
+}
+
+.wrapper{
+  background-color: #fff;
+  padding: 5px;
+  align-items: center;
+}
+.task {
+  width: 100%;
+  margin-top: 10px;
+  height: 40px;
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.completed {
+  text-decoration: line-through;
+}
+
